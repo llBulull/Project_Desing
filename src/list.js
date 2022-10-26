@@ -1,3 +1,5 @@
+import Props from "./Props";
+
 function List() {
     const x1 = [
         {id:"1", name:"Ramiro"},
@@ -12,6 +14,9 @@ function List() {
         {x1.map((t1) => <li key ={t1.id}>{t1.name} </li>)}
         
         </ul>
+
+            <Props lista={x1} />
+
         </div>
       );
 }
