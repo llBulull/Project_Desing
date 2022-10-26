@@ -1,5 +1,5 @@
 
-function Props({lista}) {
+function Props({lista, otroparametro}) {
     return(
         <div className="Props">
         
@@ -7,7 +7,7 @@ function Props({lista}) {
         {lista.map((t1) => <li key ={t1.id}>{t1.name} </li>)}
         
         </ul>
-        
+        <p>{otroparametro}</p>
         </div>
     );
 

@@ -7,6 +7,7 @@ function List() {
         {id:"3", name:"Tomas"}
     ]
     
+    let x2 = ["RAMIRO MTZ"]
     
     return (
         <div className="list">
@@ -15,7 +16,10 @@ function List() {
         
         </ul>
 
-            <Props lista={x1} />
+            <Props lista={x1} otroparametro={x2} />
+            <Props lista={x1}/>
+            <Props lista={x1}/>
+            <Props lista={x1}/>
 
         </div>
       );
